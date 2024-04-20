@@ -30,9 +30,9 @@ formFields.forEach(field => {
             formGroupDiv.appendChild(radio);
             radioLabel = document.createElement('label');
             radioLabel.textContent = option;
-            
+            formGroupDiv.appendChild(radioLabel);
         },
-        formGroupDiv.appendChild(radioLabel)
+        
     );
     
     } else if (field.type === 'checkbox') {
@@ -52,6 +52,7 @@ formFields.forEach(field => {
         input = document.createElement('input');
         input.type = field.type;
         input.name = field.name;
+        input.id = field.id;
     }
     if (input) {
         formGroupDiv.appendChild(input);
