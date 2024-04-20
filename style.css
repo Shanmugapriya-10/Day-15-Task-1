@@ -1,0 +1,49 @@
+/* Style for form */
+#form {
+    margin-bottom: 20px;
+}
+
+#form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form input[type="text"],
+#form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
